@@ -38,7 +38,7 @@ rubocop -A : Auto fixing linters errors
 
 👤 **Roland Mweze** 
 - GitHub: [@Roland M](https://github.com/rolandm99)
-- LinkedIn: [[Roland M]](https://www.linkedin.com/in/roland-mweze/)
+- LinkedIn: [@Roland M](https://www.linkedin.com/in/roland-mweze/)
   
 
 
