@@ -18,7 +18,7 @@
 ## Getting Started
 
 To get a local copy up and running follow these simple example steps.
-
+```
 Clone the project by using https://github.com/RolandM99/OOP-school-library.git
 
 cd into OOP-school-liberary
@@ -28,9 +28,7 @@ bundle install
 rubocop : to check linters errors
 
 rubocop -A : Auto fixing linters errors
-
 ```
-
 
 ### Prerequisites
 
