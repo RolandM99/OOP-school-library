@@ -1,4 +1,4 @@
-# OOP-school-library![](https://img.shields.io/badge/Microverse-blueviolet)
+![](https://img.shields.io/badge/Microverse-blueviolet)
 
 # OOP school library
 
@@ -19,18 +19,15 @@
 
 To get a local copy up and running follow these simple example steps.
 
-Clone the project by using terminal:
+Clone the project by using https://github.com/RolandM99/OOP-school-library.git
 
-```
-git clone git@github.com:aakbarkhan/school-library.git
-
-cd into school-liberary
+cd into OOP-school-liberary
 
 bundle install
 
-rubocop
+rubocop : to check linters errors
 
-rubocop -A
+rubocop -A : Auto fixing linters errors
 
 ```
 
@@ -41,9 +38,9 @@ rubocop -A
 
 ## Authors
 
-👤 **aku** 
-- GitHub: [@aakbarkhan](https://github.com/aakbarkhan)
-- LinkedIn: [[LinkedIn]](https://www.linkedin.com/in/akuu-khan/)
+👤 **Roland Mweze** 
+- GitHub: [@aakbarkhan](https://github.com/rolandm99)
+- LinkedIn: [[LinkedIn]](https://www.linkedin.com/in/roland-mweze/)
   
 
 
