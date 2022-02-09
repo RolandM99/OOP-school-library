@@ -5,9 +5,9 @@ class Corrector
 
   def correct_name(name)
     if name.length > 10
-      name.capitalize[0..9]
+      name.capitalize![0..9]
     else
-      name.capitalize
+      name.capitalize!
     end
   end
 end

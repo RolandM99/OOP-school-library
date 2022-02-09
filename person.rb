@@ -17,7 +17,7 @@ class Person
   end
 
   def validate_name
-    @name = @corrector.correct_name(name)
+    @name = @corrector.correct_name(@name)
   end
 
   private
@@ -27,7 +27,7 @@ class Person
   end
 end
 
-psn1 = Person.new('rolandeeeeeeeeeee')
+psn1 = Person.new(22, 'rolandmrrmrvgggghhhhh')
 puts psn1.age
 
 puts psn1.validate_name
