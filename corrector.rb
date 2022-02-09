@@ -1,3 +1,5 @@
+# Corrector class
+
 class Corrector
   attr_accessor :name
 
