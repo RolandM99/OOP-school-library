@@ -14,10 +14,3 @@ class Classroom
     student.classroom = self
   end
 end
-
-# Test
-puts std1 = Student.new('Class1', 7)
-class1 = Classroom.new('cleaning')
-puts class1.add_students(std1)
-
-class1.students.map { |student| p student.age }

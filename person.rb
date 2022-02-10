@@ -2,7 +2,7 @@ require './corrector'
 require './rental'
 class Person
   attr_reader :id
-  attr_accessor :name, :age
+  attr_accessor :name, :age, :rentals
 
   def initialize(age, _name = 'unknown', parent_permission: true)
     @id = Random.rand(1..1000)
@@ -31,8 +31,3 @@ class Person
     @age >= 18
   end
 end
-
-psn1 = Person.new(22, 'rolandmrrmrvgggghhhhh')
-puts psn1.age
-
-puts psn1.validate_name
