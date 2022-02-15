@@ -25,9 +25,13 @@ cd into OOP-school-liberary
 
 bundle install
 
-rubocop : to check linters errors
+run ruby main.rb to run the locally the App
 
-rubocop -A : Auto fixing linters errors
+run irb to run the code in the terminal
+
+run rubocop : to check linters errors
+
+run rubocop -A : Auto fixing linters errors
 ```
 
 ### Prerequisites
