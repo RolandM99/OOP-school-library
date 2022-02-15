@@ -1,36 +1,36 @@
-require_relative './corrector'
-require_relative './rental'
+require_relative 'corrector'
 
 class Person
-  attr_accessor :age, :name, :rental, :parent_permission
+  attr_accessor :age, :name, :rentals, :parent_permission
   attr_reader :id
 
-  def initialize(age = 22, name = 'John Doe', parent_permission = 1)
-    @id = Random.rand(1..2000)
+  def initialize(id:, age:, name: 'Unknown', parent_permission: true)
+    @id = id
+    @id = Random.rand(1..2000) if @id.nil?
     @name = name
     @age = age
     @parent_permission = parent_permission
     @corrector = Corrector.new
-    @rental = []
+    @rentals = []
   end
 
-  def add_rental(book, date)
-    Rental.new(book, date, self)
+  def add_rentals(person)
+    @rentals.push(person)
   end
 
   private
 
-  def ofage?
-    return true unless age < 18
+  def of_age?
+    @age >= 18
   end
 
   public
 
   def use_services?
-    return true if ofage? || parent_permission
+    of_age? || @parent_permission
   end
 
   def validate_name
-    @name = @corrector.correct_name(name)
+    @name = @corrector.correct_name(@name)
   end
 end

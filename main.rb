@@ -14,8 +14,11 @@ class Main
       option = gets.chomp
       break if option == '7'
 
-      @app.option_output option
+      @app.get_num option
     end
+    @app.save_people
+    @app.save_books
+    @app.save_rental
     puts 'Thank you for using our Library!'
   end
 
